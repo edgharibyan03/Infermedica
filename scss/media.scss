@@ -1,0 +1,388 @@
+/* Responsive */
+
+/* (992px - 1200px) */
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 960px;
+    }
+}
+
+/* (760px - 992px) */
+@media screen and (max-width: 992px){
+    .container{
+        width: 720px;
+    }
+    .header{
+        &-nav{
+            margin-top: -20px;
+        }
+        &-info{
+            &__block{
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+        &-cont{
+            &__text{
+                margin: 0 auto;
+                margin-bottom: 10px;
+            }
+        }
+        &-quarantine{
+            margin-top: 10px;
+        }
+    }
+    .help{
+        &__title{
+            text-align: center;
+        }
+        &-block{
+            &__item{
+                text-align: center;
+            }
+            &__item:last-child{
+                margin: 0 auto;
+            }
+        }
+    }
+    .use{
+        padding-top: 100px;
+        &__title, &__text{
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        &-block{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .try{
+        padding-bottom: 20px;
+        &__title{
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        &-block{
+            align-items: center;
+            flex-direction: column;
+            &__photo{
+                order: -1;
+            }
+        }
+    }
+    .companies{
+        margin: 0 auto;
+        &__title{
+            text-align: center;
+        }
+        &-block{
+            flex-direction: column;
+            align-items: center;
+            &__text{
+                margin: 0 auto;
+            }
+        }
+        &-based, &-verified{
+            text-align: center;
+            flex-direction: column;
+            margin: 0 auto;
+            &__img{
+                width: 80px;
+                margin: 0 auto;
+            }
+        }
+        &-verified{
+            margin-top: 40px;
+        }
+        &-list{
+            &__adaptive{
+                width: 46.5%;
+            }
+        }
+    }
+    .languages{
+        &-block{
+            &__item:last-child{
+                margin-top: 30px;
+                margin-left: 0;
+            }
+        }
+    }
+    .footer{
+        &-block{
+            flex-direction: column;
+            &__social{
+                margin-top: 40px;
+                margin-left: auto;
+            }
+        }
+    }
+}
+
+/* (540px - 720px) */
+@media screen and (max-width: 720px){
+    .container{
+        width: 540px;
+    }
+    .header-cont{
+        z-index: -1;
+    }
+    .header-nav .container{
+        width: 100%;
+    }
+    .header-nav__block{
+        padding: 0px 50px;
+    }
+    .header-nav{
+        &__info{
+            display: none;
+        }
+        &__link{
+            border-top: 1px solid silver;
+            display: block;
+            margin-bottom: 10px;
+            padding-top: 5px;
+        }
+    }
+    .hamburger{
+        display: block !important;
+    }
+    .help{
+        &-block{
+            &__item{
+                margin: 0 auto;
+            }
+        }
+    }
+    .use{
+        &__title, &__text{
+            width: 530px;
+        }
+    }
+    .stylesOfOut{
+        background: #E2E2E2;
+    }
+    .companies{
+        &-list{
+            &__title{
+                margin-bottom: 50px;
+                text-align: center;
+            }
+            &__item:first-child{
+                margin-left: -65px;
+            }
+            &__item:last-child{
+                margin-left: 65px;
+            }
+            &__block{
+                margin-top: 0;
+                flex-direction: column;
+                align-items: center;
+            }
+            &__adaptive{
+                padding-bottom: 30px;
+            }
+        }
+    }
+    .languages{
+        &__text{
+            width: 500px;
+        }
+        &-footer{
+            &__text{
+                display: flex;
+                flex-direction: column;
+                font-size: 17px;
+            }
+            &__btn{
+                width: 125px;
+                margin: 0 auto;
+                margin-bottom: 10px;
+            }
+            &__link{
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+/* (0px - 540px) */
+
+@media screen and (max-width: 540px){
+    .container, .header-quarantine__img{
+        width: 90%;
+    }
+    .header-cont__title{
+        font-size: 40px;
+    }
+    .header-cont__text{
+        width: 250px;
+    }
+    .use{
+        padding-top: 70px;
+        &__title, &__text{
+            width: 300px;
+        }
+        &-info{
+            &__btns{
+                margin: 20px 0px 0px 10px;
+                flex-direction: column;
+            }
+            &__btn{
+                width: 130px;
+            }
+        }
+        &-api{
+            &__btn{
+                margin-left: 10px;
+            }
+        }
+        &-info, &-api{
+            width: 90%;
+            &__img{
+                width: 100%;
+            }
+            &__title, &__text{
+                margin-left: 10px;
+            }
+            &__title{
+                font-size: 20px;
+                padding-left: 10px;
+                margin: 15px 0px 0px 0px;
+            }
+            &__text{
+                font-size: 14px;
+                margin-top: 10px;
+                width: 300px;
+            }
+        }
+    }
+    .try{
+        &-block{
+            &__text{
+                width: 290px;
+                margin-left: 0;
+            }
+            &__img{
+                padding: 0;
+            }
+        }
+    }
+    .companies{
+        width: 320px;
+        margin: 0 auto;
+        &-list{
+            &__item:nth-child(odd){
+                margin-right: -30px;
+                margin-top: 20px;
+            }
+            &__item:nth-child(even){
+                margin-left: -30px;
+                margin-top: 30px;
+                padding: 0;
+            }
+            .Dr_Sintomas{
+                margin-top: 0;
+            }
+            .batist{
+                margin-top: 0;
+                margin-bottom: 35px;
+            }
+            &__adaptive{
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        &-block{
+            &__title, &__text{
+                width: 290px;
+                margin: 0 auto;
+                padding-top: 15px;
+            }
+        }
+        &-based, &-verified{
+            width: 290px;
+        }
+    }
+    .languages{
+        &__title{
+            font-size: 28px;
+        }
+        &__text{
+            line-height: 1.8em;
+            width: 290px;
+            font-size: 14px;
+        }
+        &-block{
+            &__item:nth-child(2){
+                margin-right: 107px;
+            }
+            &__item:nth-child(3){
+                margin-top: 30px;
+            }
+        }
+        &-footer{
+            &__btn{
+                margin-bottom: 20px;
+            }
+            &__link{
+                margin-top: 20px;
+            }
+        }
+    }
+    .share{
+        &__text{
+            width: 290px;
+            text-align: left;
+        }
+    }
+    .footer{
+        &-block{
+            &__item{
+                flex-direction: column;
+            }
+            &__text{
+                width: 290px;
+            }
+            &__text:last-child{
+                margin-bottom: 10px;
+            }
+            &__title{
+                margin-bottom: 0;
+            }
+            &__social{
+                margin-left: 0;
+            }
+            &__products, &__company, &__developers, &__item{
+                width: 290px;
+            }
+        }
+        &-last{
+            &__text{
+                margin-top: 0;
+            }
+        }
+        &-last:before{
+            margin-top: 75px;
+            margin-bottom: 75px;
+        }
+    }
+}
+
+@media screen and (max-width: 400px){
+    .use{
+        &-info, &-api{
+            &__text{
+                width: 250px;
+            }
+        }
+    }
+    .languages{
+        &-block{
+            &__item:first-child{
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

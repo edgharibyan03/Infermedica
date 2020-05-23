@@ -1,0 +1,292 @@
+/* Responsive */
+/* (992px - 1200px) */
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px; } }
+
+/* (760px - 992px) */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px; }
+  .header-nav {
+    margin-top: -20px; }
+  .header-info__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center; }
+  .header-cont__text {
+    margin: 0 auto;
+    margin-bottom: 10px; }
+  .header-quarantine {
+    margin-top: 10px; }
+  .help__title {
+    text-align: center; }
+  .help-block__item {
+    text-align: center; }
+  .help-block__item:last-child {
+    margin: 0 auto; }
+  .use {
+    padding-top: 100px; }
+    .use__title, .use__text {
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 30px; }
+    .use-block {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+  .try {
+    padding-bottom: 20px; }
+    .try__title {
+      text-align: center;
+      margin-bottom: 60px; }
+    .try-block {
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .try-block__photo {
+        -webkit-box-ordinal-group: 0;
+        -webkit-order: -1;
+            -ms-flex-order: -1;
+                order: -1; }
+  .companies {
+    margin: 0 auto; }
+    .companies__title {
+      text-align: center; }
+    .companies-block {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .companies-block__text {
+        margin: 0 auto; }
+    .companies-based, .companies-verified {
+      text-align: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      margin: 0 auto; }
+      .companies-based__img, .companies-verified__img {
+        width: 80px;
+        margin: 0 auto; }
+    .companies-verified {
+      margin-top: 40px; }
+    .companies-list__adaptive {
+      width: 46.5%; }
+  .languages-block__item:last-child {
+    margin-top: 30px;
+    margin-left: 0; }
+  .footer-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .footer-block__social {
+      margin-top: 40px;
+      margin-left: auto; } }
+
+/* (540px - 720px) */
+@media screen and (max-width: 720px) {
+  .container {
+    width: 540px; }
+  .header-cont {
+    z-index: -1; }
+  .header-nav .container {
+    width: 100%; }
+  .header-nav__block {
+    padding: 0px 50px; }
+  .header-nav__info {
+    display: none; }
+  .header-nav__link {
+    border-top: 1px solid silver;
+    display: block;
+    margin-bottom: 10px;
+    padding-top: 5px; }
+  .hamburger {
+    display: block !important; }
+  .help-block__item {
+    margin: 0 auto; }
+  .use__title, .use__text {
+    width: 530px; }
+  .stylesOfOut {
+    background: #E2E2E2; }
+  .companies-list__title {
+    margin-bottom: 50px;
+    text-align: center; }
+  .companies-list__item:first-child {
+    margin-left: -65px; }
+  .companies-list__item:last-child {
+    margin-left: 65px; }
+  .companies-list__block {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .companies-list__adaptive {
+    padding-bottom: 30px; }
+  .languages__text {
+    width: 500px; }
+  .languages-footer__text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 17px; }
+  .languages-footer__btn {
+    width: 125px;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+  .languages-footer__link {
+    margin-top: 10px; } }
+
+/* (0px - 540px) */
+@media screen and (max-width: 540px) {
+  .container, .header-quarantine__img {
+    width: 90%; }
+  .header-cont__title {
+    font-size: 40px; }
+  .header-cont__text {
+    width: 250px; }
+  .use {
+    padding-top: 70px; }
+    .use__title, .use__text {
+      width: 300px; }
+    .use-info__btns {
+      margin: 20px 0px 0px 10px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+    .use-info__btn {
+      width: 130px; }
+    .use-api__btn {
+      margin-left: 10px; }
+    .use-info, .use-api {
+      width: 90%; }
+      .use-info__img, .use-api__img {
+        width: 100%; }
+      .use-info__title, .use-info__text, .use-api__title, .use-api__text {
+        margin-left: 10px; }
+      .use-info__title, .use-api__title {
+        font-size: 20px;
+        padding-left: 10px;
+        margin: 15px 0px 0px 0px; }
+      .use-info__text, .use-api__text {
+        font-size: 14px;
+        margin-top: 10px;
+        width: 300px; }
+  .try-block__text {
+    width: 290px;
+    margin-left: 0; }
+  .try-block__img {
+    padding: 0; }
+  .companies {
+    width: 320px;
+    margin: 0 auto; }
+    .companies-list__item:nth-child(odd) {
+      margin-right: -30px;
+      margin-top: 20px; }
+    .companies-list__item:nth-child(even) {
+      margin-left: -30px;
+      margin-top: 30px;
+      padding: 0; }
+    .companies-list .Dr_Sintomas {
+      margin-top: 0; }
+    .companies-list .batist {
+      margin-top: 0;
+      margin-bottom: 35px; }
+    .companies-list__adaptive {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .companies-block__title, .companies-block__text {
+      width: 290px;
+      margin: 0 auto;
+      padding-top: 15px; }
+    .companies-based, .companies-verified {
+      width: 290px; }
+  .languages__title {
+    font-size: 28px; }
+  .languages__text {
+    line-height: 1.8em;
+    width: 290px;
+    font-size: 14px; }
+  .languages-block__item:nth-child(2) {
+    margin-right: 107px; }
+  .languages-block__item:nth-child(3) {
+    margin-top: 30px; }
+  .languages-footer__btn {
+    margin-bottom: 20px; }
+  .languages-footer__link {
+    margin-top: 20px; }
+  .share__text {
+    width: 290px;
+    text-align: left; }
+  .footer-block__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .footer-block__text {
+    width: 290px; }
+  .footer-block__text:last-child {
+    margin-bottom: 10px; }
+  .footer-block__title {
+    margin-bottom: 0; }
+  .footer-block__social {
+    margin-left: 0; }
+  .footer-block__products, .footer-block__company, .footer-block__developers, .footer-block__item {
+    width: 290px; }
+  .footer-last__text {
+    margin-top: 0; }
+  .footer-last:before {
+    margin-top: 75px;
+    margin-bottom: 75px; } }
+
+@media screen and (max-width: 400px) {
+  .use-info__text, .use-api__text {
+    width: 250px; }
+  .languages-block__item:first-child {
+    margin-bottom: 30px; } }
